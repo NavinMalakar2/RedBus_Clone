@@ -134,7 +134,7 @@
             right: -17rem;
             top: -2rem;
             width: 17rem;
-            height: 100vh;
+            height: 15rem;
             background-color: #2c2727;
             transition: all .4s ease; 
         }
@@ -188,7 +188,7 @@
     }
     #cancle{
          z-index: 1111;
-        right: 225px;
+        right: 210px;
         top:5px;
         font-size: 30px;
         color: red;
@@ -224,7 +224,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        position: relative;
+        /* position: relative; */
         box-sizing: border-box;
     }
     .BookingSite h1{
@@ -324,7 +324,7 @@
         margin-top: -3rem;
         min-width: 87vw;
         min-height: 58vh;
-        margin-left: 3rem;
+        margin-left: 0;
         margin-right: 3.5rem;
         background-color: white;
         font-weight: 400;
@@ -693,7 +693,7 @@
     .GOVERNMENT_BUSES{
         min-width: 87vw;
         min-height: 58vh;
-        margin-left: 3rem;
+        margin-left: 0;
         margin-right: 3.5rem;
         /* background-color: rgb(31, 36, 36); */
         padding: 2rem;
@@ -1639,7 +1639,8 @@ footer{
     /* navbar end */
 
     .BookingSite{
-        height: 45rem;
+        height: 50rem;
+        width: 100vw;
     }
     .search_bus{
         background-color:white;
