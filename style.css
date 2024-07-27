@@ -249,24 +249,23 @@
     .from{
         display: flex;
         align-items: center;
-        gap: 2rem;
-        
-        
+        /* gap: 2rem; */
+        margin-right: -2rem;
     }
     .bus_in i{
-        margin-right: -5rem;
+        /* margin-right: -rem; */
         padding: 1rem;
         font-size: 2rem;
-        /* margin-left: 1rem; */
+        /* margin-left: rem; */
     }
-    .bus_in_from label{
-        margin-left: 3.5rem;
+    .bus_in_from {
+        /* margin-left: 3.5rem; */
     }
     .bus_in_from input{
         border: none;
         background-color: transparent;
         outline: none;
-        
+
     }
     .circle i{
         position: relative;
